@@ -1,0 +1,26 @@
+
+.navbarPagina {
+    display: flex;
+    width: 100%;    
+}
+
+.content {
+    display:flexbox;
+    padding: 30px;
+}
+
+.navbar {
+    display: flexbox;
+    height: 100%;
+    padding: 0px;
+    align-items: flex-start;
+}
+
+.headcontfooPagina {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    padding: 30px;
+}

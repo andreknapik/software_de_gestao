@@ -1,26 +1,40 @@
 
 .navbarPagina {
     display: flex;
-    width: 100%;    
+    width: 100%;
+    height: 100%;
+
 }
 
 .content {
     display:flexbox;
     padding: 30px;
+    width: 100%;
 }
 
 .navbar {
     display: flexbox;
-    height: 100%;
     padding: 0px;
     align-items: flex-start;
+    
 }
 
 .headcontfooPagina {
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 
 .header {
     padding: 30px;
+    background-color: rgb(0, 33, 94);
+    height: 100%;
+    width: 100%;
+}
+
+.footer {
+    padding-left: 30px;
+    background-color: rgb(0, 33, 94);
+    height: 100%;
+    width: 100%;
 }

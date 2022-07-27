@@ -11,6 +11,14 @@ import { ContentComponent } from './components/content/content.component';
 import { HeaderComponent } from './components/header/header.component';
 import { TesteComponent } from './pages/teste/teste.component';
 import { CardsComponent } from './components/cards/cards.component';
+import { DesempenhoComponent } from './pages/desempenho/desempenho.component';
+import { ProspeccaoComponent } from './pages/prospeccao/prospeccao.component';
+import { ComprasComponent } from './pages/compras/compras.component';
+import { TarefasComponent } from './pages/tarefas/tarefas.component';
+import { AnotacoesComponent } from './pages/anotacoes/anotacoes.component';
+import { NovaLojaComponent } from './pages/nova-loja/nova-loja.component';
+import { ConfiguracoesComponent } from './pages/configuracoes/configuracoes.component';
+import { PerfilComponent } from './pages/perfil/perfil.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +30,15 @@ import { CardsComponent } from './components/cards/cards.component';
     DashboardComponent,
     HeaderComponent,
     TesteComponent,
-    CardsComponent
+    CardsComponent,
+    DesempenhoComponent,
+    ProspeccaoComponent,
+    ComprasComponent,
+    TarefasComponent,
+    AnotacoesComponent,
+    NovaLojaComponent,
+    ConfiguracoesComponent,
+    PerfilComponent
   ],
   imports: [
     BrowserModule,
